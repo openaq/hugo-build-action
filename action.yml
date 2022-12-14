@@ -1,0 +1,9 @@
+name: "Hugo Build"
+description: "Hugo build"
+author: OpenAQ
+runs:
+  using: docker
+  image: docker://ghcr.io/openaq/hugo-docker:main
+branding:
+  icon: wind
+  color: blue
