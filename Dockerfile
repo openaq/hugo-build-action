@@ -1,3 +1,3 @@
-FROM ghcr.io/openaq/hugo-docker:1.0.0
+FROM ghcr.io/openaq/hugo-docker:main
 
 ENTRYPOINT ["hugo"]
