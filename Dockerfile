@@ -1,3 +1,6 @@
 FROM ghcr.io/openaq/hugo-docker:main
 
-ENTRYPOINT ["hugo"]
+COPY entrypoint.sh /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
+
