@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-hugo
+yarn build
